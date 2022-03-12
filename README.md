@@ -33,9 +33,12 @@ Add this to your `Cargo.toml`:
 seqbytes = "0.1.0"
 ```
 
+## Documentation
+* [Docs.rs](https://docs.rs/seqbytes/0.1.0/)
+
 ## License
 
 seqbytes is distributed under the Apache v2.0 License.
 
-See [LICENSE.md](LICENSE.md) for details.
+See [LICENSE.md](LICENSE.md).
 
