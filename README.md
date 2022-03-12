@@ -7,7 +7,7 @@ The trait `ESeqByteReader` is used for reading bytes sequentially, converting to
 which represents a type which can be converted to and from bytes with a specific endianness.
 
 ## Implementations
-The traits `E$eqByteReader` and `SeqByteReader` are implemented by default on types implementing `Read` + `Seek`.
+The traits `ESeqByteReader` and `SeqByteReader` are implemented by default on types implementing `Read` + `Seek`.
 
 ## Example
 ```rust
