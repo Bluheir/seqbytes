@@ -2,13 +2,13 @@
 //! The seqbytes crate provides the traits `ESeqByteReader` and `SeqByteReader` used for reading bytes sequentially. The `SeqByteReader` trait convert the bytes into the
 //! specified generic type, denoted `U`, which must implement `SizedNumber`. The trait `SizedNumber` represents a type which can be converted to and from bytes, with a
 //! fixed size in bytes.
-//! 
+//!
 //! The trait `ESeqByteReader` is used for reading bytes sequentially, converting to a type with a specific endianness. The type converted to must implement `EndianNumber`,
 //! which represents a type which can be converted to and from bytes with a specific endianness.
-//! 
+//!
 //! # Implementation
 //! The traits `E$eqByteReader` and `SeqByteReader` are implemented by default on types implementing `Read` + `Seek`.
-//! 
+//!
 //! ## Example 1
 //! Using [`SizedNumber`] trait to convert numbers.
 //! ```
