@@ -34,7 +34,7 @@ seqbytes = "0.1.0"
 ```
 
 ## Documentation
-* [Docs.rs](https://docs.rs/seqbytes/0.1.0/)
+* [Docs.rs](https://docs.rs/seqbytes/)
 
 ## License
 
