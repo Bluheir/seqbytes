@@ -32,3 +32,10 @@ Add this to your `Cargo.toml`:
 [dependencies]
 seqbytes = "0.1.0"
 ```
+
+# License
+
+seqbytes is distributed under the Apache v2.0 License.
+
+See [LICENSE-APACHE](LICENSE-APACHE.md) for details.
+
