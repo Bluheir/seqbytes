@@ -3,16 +3,15 @@ pub trait SizedNumber
 where
     Self: Sized,
 {
-
     /// Returns the size of `Self` in bytes.
-    /// 
+    ///
     /// If unimplemented, calls [`std::mem::size_of`] [`crate::traits::SizedNumber`] on `Self`.
-    /// 
+    ///
     /// # Example
-    /// 
+    ///
     /// ```
-    /// use crate::traits::SizedNumber;
-    /// 
+    /// use seqbytes::traits::SizedNumber;
+    ///
     /// assert_eq!(f32::size(), 4);
     /// assert_eq!(u32::size(), 4);
     /// assert_eq!(i32::size(), 4);
@@ -27,12 +26,12 @@ where
     }
 
     /// Converts the slice to `Self`. Will return [`None`] if the slice length is not equal to the size of the type.
-    /// 
+    ///
     /// # Example
-    /// 
+    ///
     /// ```
     /// use seqbytes::traits::*;
-    /// 
+    ///
     /// let a = 22.4f64;
     /// let b = a.to_bytes();
     /// let c = f64::from_bytes(&b);
@@ -42,12 +41,12 @@ where
     /// ```
     fn from_bytes(bytes: &[u8]) -> Option<Self>;
     /// Converts `self` to equivalent byte representation.
-    /// 
+    ///
     /// # Example
-    /// 
+    ///
     /// ```
     /// use seqbytes::traits::*;
-    /// 
+    ///
     /// let a = 22.4f64;
     /// let b = a.to_bytes();
     /// let c = f64::from_bytes_e(&b, false).unwrap();
