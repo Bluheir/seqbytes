@@ -33,7 +33,7 @@ Add this to your `Cargo.toml`:
 seqbytes = "0.1.0"
 ```
 
-# License
+## License
 
 seqbytes is distributed under the Apache v2.0 License.
 
