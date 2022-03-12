@@ -4,13 +4,14 @@ version = "0.1.0"
 edition = "2021"
 
 # Manifest fields
-readme="README.md"
-repository="https://github.com/Bluheir/seqbytes"
-documentation="https://docs.rs/seqbytes"
-description="Provides traits for reading bytes sequentially"
-license="Apache-2.0"
-license-file="LICENSE.md"
-categories=["parsing", "data-structures", "encoding", "config", "database"]
+readme = "README.md"
+repository = "https://github.com/Bluheir/seqbytes"
+documentation = "https://docs.rs/seqbytes"
+description = "Provides traits for reading bytes sequentially"
+license = "Apache-2.0"
+license-file = "LICENSE.md"
+categories = ["parsing", "data-structures", "encoding", "config", "database"]
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
