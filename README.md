@@ -37,5 +37,5 @@ seqbytes = "0.1.0"
 
 seqbytes is distributed under the Apache v2.0 License.
 
-See [LICENSE-APACHE](LICENSE-APACHE.md) for details.
+See [LICENSE.md](LICENSE.md) for details.
 
