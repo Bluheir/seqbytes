@@ -11,7 +11,7 @@ The traits `E$eqByteReader` and `SeqByteReader` are implemented by default on ty
 
 ## Example
 ```rust
-use crate::prelude::*;
+use seqbytes::prelude::*;
 use std::io::Cursor;
 
 let a = vec![69, 96, 255, 255, 0x68, 0x65, 0x6C, 0x6C, 0x6F];
