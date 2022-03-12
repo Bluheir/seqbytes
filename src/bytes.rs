@@ -2,7 +2,7 @@ use std::io::{Read, Seek, SeekFrom};
 
 use super::traits::*;
 
-/// Represents a sequential byte reader which can read bytes with a specified endianness. Can be used on types that implement [`Read`] + [`Seek`].
+/// Represents a sequential byte reader which can read bytes. Can be used on types that implement [`Read`] + [`Seek`].
 ///
 /// # Examples
 ///
