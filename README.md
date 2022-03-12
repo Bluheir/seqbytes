@@ -1,6 +1,6 @@
 # seqbytes
 [![Latest version](https://img.shields.io/crates/v/seqbytes)](https://crates.io/crates/seqbytes)
-[![Documentation](https://docs.rs/seqbytes/badge.svg)](https://docs.rs/log)
+[![Documentation](https://docs.rs/seqbytes/badge.svg)](https://docs.rs/seqbytes)
 ![License](https://img.shields.io/github/license/Bluheir/seqbytes?color=purple)
  
 The seqbytes crate provides the traits `ESeqByteReader` and `SeqByteReader` used for reading bytes sequentially. The `SeqByteReader` trait convert the bytes into the 
