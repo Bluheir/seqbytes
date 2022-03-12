@@ -34,15 +34,15 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-seqbytes = "0.1.0"
+seqbytes = "0.1.1"
 ```
 
 ## Documentation
-* [Docs.rs](https://docs.rs/seqbytes/)
+* [docs.rs](https://docs.rs/seqbytes/) documentation
 
 ## License
 
 seqbytes is distributed under the Apache v2.0 License.
 
-See [LICENSE.md](LICENSE.md).
+See [LICENSE.md](LICENSE.md) for more details.
 

@@ -22,7 +22,7 @@
 //! assert_eq!(d, None);
 //! ```
 //! ## Example 2
-//! Using [`crate::bytes::SeqByteReader`] to read a Vector sequentially
+//! Using [`seqbytes::bytes::SeqByteReader`] trait to read a Vector sequentially
 //! ```
 //! use seqbytes::prelude::*;
 //! use std::io::Cursor;
@@ -38,9 +38,9 @@
 //! assert_eq!(*s, *"hello");
 //! ```
 
-/// Contains the traits [`crate::bytes::SeqByteReader`] and [`crate::bytes::ESeqByteReader`]
+/// Contains the traits [`seqbytes::bytes::SeqByteReader`] and [`seqbytes::bytes::ESeqByteReader`]
 pub mod bytes;
-/// Re-exports everything from the module [`crate::bytes`] and [`crate::traits`]
+/// Re-exports everything from the module [`seqbytes::bytes`] and [`seqbytes::traits`]
 pub mod prelude;
 /// Contains all traits in this library.
 pub mod traits;
